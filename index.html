@@ -7,6 +7,8 @@
     <meta name="keywords" content="andadores, choche para bebe,triciclo, cunas, juguetes para bebes.">
     <meta name="author" content="Tobias Palumbo">
     <meta name="description" content="Somos una empresa familiar encargada en la venta de productos para bebes y niños, rodados, juguetes, ropa, andadores,cochesitos,triciclos, etc.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel="icon" href="imagenes/169990141_4117644884961671_7648304091354381150_n.jpg">
@@ -48,37 +50,54 @@
         </div>  
     </nav>
 </header>
-
-
-        <main> 
-            <div class="first__section">
-                <section>
-                    <a href="../paginas/andadores.html"><img class="mai__head" src="https://i0.wp.com/vanderbaby.com.ar/wp-content/uploads/2021/08/1-banner%20promo.png?fit=2048%2C566&ssl=1" style="width: 100% ; ;"   alt="andador"></a>
-                    
-                </section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </main>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://i0.wp.com/vanderbaby.com.ar/wp-content/uploads/2021/08/1-banner%20promo.png?fit=2048%2C566&ssl=1" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="https://mundojuguete.vteximg.com.br/arquivos/ids/186416/bannerppal_desktop_50off_vmayo.jpg?v=637870915855430000"  class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src=https://mundojuguete.vteximg.com.br/arquivos/Caminstit-bp-Entrega%20en%20el%20dia-desktop.png?v=637771617853500000 class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        
 
             <div class="card__conteiner">
                 <div class="card">
-                    <img class="card__cuetosImg" <img src="https://mundojuguete.vteximg.com.br/arquivos/icon_entregaeneldia.png?v=637561706397330000" alt="logo ahora 12">
+                    <img class="imgtarget" src="https://mundojuguete.vteximg.com.br/arquivos/icon_entregaeneldia.png?v=637561706397330000" alt="logo ahora 12">
                     <span class="card__span12" >LLEGA EN EL DIA</span>
                 </div>
                 <div class="card">
-                    <a href=""><img src="https://mundojuguete.vteximg.com.br/arquivos/icon_retiropais.png?v=637561706402170000"></a>
+                    <a href=""><img class="card__cuetosImg" src="https://mundojuguete.vteximg.com.br/arquivos/icon_retiropais.png?v=637561706402170000"></a>
                     <span class="card__span12">ENVIOS A TODO EL PAIS</span>
                 </div>
                 <div class="card">
-                    <a href=""><img src="https://mundojuguete.vteximg.com.br/arquivos/icon_3cuotas.png?v=637561706391130000"></a>
+                    <a href=""><img class="imgtarget" src="https://mundojuguete.vteximg.com.br/arquivos/icon_3cuotas.png?v=637561706391130000"></a>
                     <span class="card__span12">12 cuotas</span>
                 </div>
                 <div class="card">
-                    <a href=""><img src="https://mundojuguete.vteximg.com.br/arquivos/icon_retiroensucursal.png?v=637561706397530000"></a>  
+                    <a href=""><img class="imgtarget" src="https://mundojuguete.vteximg.com.br/arquivos/icon_retiroensucursal.png?v=637561706397530000"></a>  
                     <span class="card__span12">RETIRO EN SUCURSAL</span>
                 </div>   
             </div>
             <div class="banner_conteiner">
-                <img src="https://mundojuguete.vteximg.com.br/arquivos/banner_desktop_cuotas_2022nuevo.png?v=637771618791400000" alt="">
+                <img   src="https://mundojuguete.vteximg.com.br/arquivos/banner_desktop_cuotas_2022nuevo.png?v=637771618791400000" alt="">
             </div>
             <div class="content__whatsapp">
                 <a href=" https://wa.me/2215052595"><img src="./imagenes/3225179_app_logo_media_popular_social_icon (1).png" alt=""></a>
@@ -94,7 +113,7 @@
                     <div>
                         <h3>Encontranos en 70 299 y 298 55*</h3>
                         <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7778.562200822364!2d-57.97895343330131!3d-34.94451265163293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e8710c1ec0e1%3A0xb26669896f096fb1!2sTalleres%20ferroviarios%20Los%20Hornos%2C%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649359865188!5m2!1ses-419!2sar" width="200px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  ></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7778.562200822364!2d-57.97895343330131!3d-34.    94451265163293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e8710c1ec0e1%3A0xb26669896f096fb1!2sTalleres%20ferroviarios%20Los%20Hornos%2C%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649359865188!5m2!1ses-419!2sar" width="200px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  ></iframe>
                         </div>
                     </div>
                     <div>
@@ -112,7 +131,7 @@
                     </div>
                     <div>
                         <div>
-                            <h2>Recibir promosiones y noticias</h2>
+                            <h2>Recibir promociones y noticias</h2>
                         </div>
                         <form action="Servirdor.com">
                             <label for="email-info"></label>
@@ -122,6 +141,7 @@
                     </div>
             </footer>
         </div>
+        <script src="/script/bootstrap.bundle.min.js"></script>
 </body>
 </html> 
 

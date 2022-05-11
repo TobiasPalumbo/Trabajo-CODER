@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../imagenes/169990141_4117644884961671_7648304091354381150_n.jpg">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <script src="https://kit.fontawesome.com/14234ba7a4.js" crossorigin="anonymous"></script>
@@ -60,11 +61,17 @@
                 
                 <div class="conteiner__seguimientoicon">
                     <div><i class="fa-solid fa-store segumineto__item"></i></div>
-                    <div><i class="fa-solid fa-truck-ramp-box segumineto__item"></i></div>
                     <div><i class="fa-solid fa-truck-moving segumineto__item"></i></div>
                     <div><i class="fa-solid fa-house-user segumineto__item"></i></div>
                 </div>
-                <div class="segumineto__line"></div> 
+                <div class="position-relative m-4">
+                    <div class="progress" style="height: 1px;">
+                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">1</button>
+                    <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">2</button>
+                    <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill" style="width: 2rem; height:2rem;">3</button>
+                </div>
 
                 <div class="seguimiento__span">
                     <span class="seguimiento__span">Seguir tu pedido</span>
@@ -116,5 +123,7 @@
                 </div>
             </footer>
             </div>
+
+            <script src="/script/bootstrap.bundle.min.js"></script>
 </body>
 </html>

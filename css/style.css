@@ -54,6 +54,7 @@ ul{
     align-items: center;
     height: 70px;
     position: relative;
+    flex-wrap: nowrap !important;
     
     
 }
@@ -89,11 +90,14 @@ ul{
     
     display: flex;
     justify-content: center ;
+    align-items: center;
     
 }
 .nav__ul {
     display: flex;
     flex-direction: row;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 
 
 }
@@ -109,6 +113,7 @@ ul{
 }
 .nav__items:hover{
     border-bottom: 2px solid rgb(255, 255, 255);
+    color: #fff !important;
 }
 
 
@@ -130,7 +135,7 @@ ul{
     height: 42px;
     border-radius: 0 5px 5px 0;
     font-weight: 700;
-    
+    background-color: #efefef;
     border: none;
     cursor: pointer;
     
@@ -168,6 +173,55 @@ ul{
     justify-content: center;
     align-items: center;
     position: relative;
+
+
+}
+
+.card__cuetosImg{
+    animation-name: animacionnave;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 600ms;
+    animation-direction:alternate ;
+}
+@keyframes animacionnave {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-15px);
+    }
+    25%{
+        transform: translateX(15px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+.imgtarget{
+    animation-name: animacioncards;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animacioncards {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+
+    
 }
 
 .card__span12{
@@ -292,6 +346,10 @@ iframe{
     position: relative;
     top: 30pxs;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
         
 }
 
@@ -722,7 +780,8 @@ background-color: #ffffff;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    top: 30px;
+    padding: 0 7px;
+    
     
 }
 .segumineto__line{
@@ -737,7 +796,7 @@ background-color: #ffffff;
 }
 .segumineto__item{
     font-size: 30px;
-    color:#00000054 ;
+    color:#000000 ;
 }
 
 .seguimiento__span{
