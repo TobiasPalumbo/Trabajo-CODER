@@ -7,7 +7,7 @@
 body{
     
     background-color: #ededed ;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     height: 100%;
 }
 html{
@@ -23,7 +23,9 @@ ul{
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 
-
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #d90429;
+}
 .fi-rr-cross{
     display: none;
 }
@@ -611,7 +613,7 @@ background-color: #f1f1f1;
     height: 500px;
     margin: 70px auto;
     box-shadow: 3px 3px 13px 2px rgba(0,0,0,0.49);
--webkit-box-shadow: 3px 3px 13px 2px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 3px 3px 13px 2px rgba(0,0,0,0.49);
 -moz-box-shadow: 3px 3px 13px 2px rgba(0,0,0,0.49);
 background-color: #ffffff;
 }
@@ -829,6 +831,10 @@ background-color: #ffffff;
 .compra__img{
     margin: 30px;
 }
+.compra__img img{
+    width: 100%;
+}
+
 .compra__imgitems:hover img{
     border: 1px solid #000;
     cursor: pointer;
@@ -1181,9 +1187,6 @@ s}
 
     .login__conteiner{
         width: 80%;
-    }
-    .compra__img img{
-        width: 900px;
     }
 
     .compra__img{
