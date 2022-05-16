@@ -1,0 +1,38 @@
+.footer-conteiner{
+    
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.footer{
+    color: #f1f1f1;
+    width: 100%;
+    background-color: #f02929;
+    display: flex;
+    justify-content: space-around;
+    gap: 17px;
+    padding-top: 20px;
+}
+
+.footer__telefono{
+    margin: 15px;
+}
+.footer__icons{
+    color: black;
+}
+.footer__btn{
+    width: 27px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+
+} 
+.contenedor{
+    margin: 50px;
+    
+}
+iframe{
+    width: 200px;
+    height: 200px;
+}

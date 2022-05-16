@@ -1,0 +1,83 @@
+.card__conteiner{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card__conteiner img{
+    width: 100%;
+}
+.cardInd{
+    width: 300px;
+    height: 100px;
+    border: none;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.card__cuetosImg{
+    animation-name: animacionnave;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 600ms;
+    animation-direction:alternate ;
+}
+.card__span12{
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    color: #f02929;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+@keyframes animacionnave {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-15px);
+    }
+    25%{
+        transform: translateX(15px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+.imgtarget{
+    animation-name: animacioncards;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animacioncards {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+
+    
+}
