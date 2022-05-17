@@ -1,0 +1,289 @@
+
+@media screen and (max-width:1534px){
+    .nav__items{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1469px){
+
+    .nav__items{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:14px){
+    .nav__items{
+        font-size: 10px;
+        
+    }
+}
+
+@media screen and (max-width:1400px) {
+    nav{
+        display: flex;
+        flex-direction: column ;
+        height: 80px;
+        padding-top: 22px;
+    }
+    .header{
+        height: 90px;
+        background-color: #d90429;
+    }
+
+    .nav__img{
+        position: absolute;
+        left: 0;
+        top: -30px;
+    }
+
+    .card__conteiner{
+        flex-wrap: wrap;
+    }
+    .card img {
+        object-fit:initial ;
+        width: 300px;
+    }
+
+}
+
+
+@media screen and (max-width:1170px) {
+    .nav{
+        background-color: rgba(0, 0, 0, 0);
+        
+    }
+    .nav__bar{
+        width: 400px !important;
+    }
+    .nav__img{
+        width: 160px;
+    }
+}
+
+
+@media screen and (max-width:890px) {
+
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .nav__bar{
+        width: 300px !important;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:805px){
+    .carrito{
+        width: 100%;
+    }
+
+    .carrito__conteiner{
+        width: 70%;
+        height: 70%;
+    }
+    .nav__img{
+        display: none;
+    }
+} 
+
+
+
+@media screen and (max-width:710px){
+    .nav__bar-btn{
+        width: 500px;
+    }
+
+    .seguimineto-pedidos{
+        width: 70%;
+    }
+} 
+
+
+@media screen and (max-width:640px){
+    .selection-price{
+        align-items: unset;
+
+    }
+    .fa-angle-down{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:615px){
+    .nav__bar-btn{
+        width: 300px;
+    }
+
+
+
+    .footer{
+        grid-template-columns: auto auto;
+    }
+
+}
+
+
+@media screen and (max-width:576px){
+    .conteiner-products{
+        padding: 0;
+    }
+
+    .login__conteiner{
+        width: 80%;
+    }
+
+    .compra__img{
+        width: 70%;
+    }
+    .compra__links-span{
+        position: unset;
+    }
+
+}
+
+@media screen and (max-width:525px){
+    .conteiner-products{
+        flex-direction: column-reverse;
+    }
+
+    .content-impconsulta{
+        width: 80%;
+    }
+
+    .section__parrafoconsultas{
+        width: 80%;
+    }
+
+
+
+
+
+
+
+}
+@media screen and (max-width:500px){
+    #lateral{
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        padding: 10px;
+        width: 70%;
+        z-index: 100;
+        height: 100vh;
+        background-color: rgba(68, 0, 0, 0.692);
+        transition: all 2s;
+    }
+
+    #lateral:target {
+        left: 0;
+    }
+    
+
+    .fi-rr-align-justify{
+        display: block;
+        font-size: 25px;
+        color: #f9f9f9;
+        margin-right: 20px;
+    }
+    .nav{
+        flex-direction: row;
+    }
+
+    .nav__ul{
+        flex-direction: column !important;
+    }
+    .nav__items{
+        font-size: 14px;
+    }
+    .fi-rr-cross{
+        color: #f9f9f9;
+        display: block;
+        font-size: 19px;
+    }
+
+
+}
+
+@media screen and (max-width:480px){
+
+    .conteiner-textoContactos{
+        padding: 10px;
+    }
+
+    .form__nombre input{
+        width: 90%;
+    }
+
+    .form__email input{
+        width: 90%;
+    }
+
+    textarea{
+        width: 90%;
+    }
+
+    .form__asunto input{
+        width: 90%;
+    }
+}
+
+
+
+
+@media screen and (max-width:440px){
+    .selection-price{
+        height: auto;
+    }
+    .fa-angle-down{
+        padding-left: 10px;
+    }
+
+}
+@media screen and (max-width:410px){
+    iframe{
+        width: 100px;
+        height: 100px;
+    }
+    .footer div form input{
+        width: 90px;
+    }
+
+    .login__name input{
+        width: 100%;
+    }
+    .login__password input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:331px){
+    .fi-rr-align-justify{
+        font-size: 19px;
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width:365px){
+    .list__items{
+        width: 100%;
+    }
+    .list__items img{
+        width: 100%;
+    }
+    .fi-rr-align-justify{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:342px) {
+    .footer{
+        grid-template-columns: auto ;
+    }
+}
