@@ -47,7 +47,6 @@ ul {
 }
 
 .nav .nav__img {
-  margin: 30px;
   height: 70px;
 }
 
@@ -89,6 +88,10 @@ ul {
   align-items: center;
 }
 
+.li-cross {
+  margin: 0 !important;
+}
+
 .nav__ul li {
   margin: 0 10px;
 }
@@ -126,6 +129,23 @@ ul {
 
 .fa-bars {
   display: none;
+}
+
+.mini-nav {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 2em;
+  padding-left: 10px;
+  line-height: 4;
+}
+
+.mini-nav a {
+  color: #f02929;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mini-nav a:hover {
+  border-bottom: 1px solid  #d90429;
 }
 
 .content__whatsapp {
@@ -228,7 +248,7 @@ ul {
 }
 
 .backgroudimg-1 {
-  background-color: #ab1919;
+  background-color: #ffffffd7;
 }
 
 .backgroudimg-2 {
@@ -246,7 +266,7 @@ ul {
 .ckard {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: red;
   width: 300px;
   height: 200px;
   text-align: center;
@@ -344,7 +364,7 @@ ul {
 }
 
 .categorias__items:hover {
-  border: 1px solid #c9c4a3;
+  border-bottom: 2px solid #c9a3a3;
 }
 
 .marcas_check {
@@ -407,13 +427,16 @@ ul {
 /**/
 /*SEGUIR PEDIDO*/
 .seguimineto-pedidos {
-  width: 700px;
-  height: 700px;
-  border-radius: 3%;
+  max-width: 700px;
+  max-height: 700px;
   background-color: #f9f9f9;
-  border-radius: 7% 7% 7% 7%;
+  border-radius: 1% 1% 1% 1%;
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.15);
   margin: 55px auto;
+}
+
+.seguimineto-pedidos i {
+  color: #a52a2a;
 }
 
 .seguimiento__conteiner {
@@ -423,6 +446,11 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+
+.seguimiento__parrafo p {
+  font-size: 1.1rem;
+  font-family: sans-serif;
 }
 
 .segumineto__icon {
@@ -524,14 +552,12 @@ ul {
 }
 
 .login__name input {
-  height: 60px;
-  width: 300px;
+  padding: 1rem;
   border-radius: 4px;
 }
 
 .login__password input {
-  width: 300px;
-  height: 60px;
+  padding: 1rem;
   border-radius: 4px;
 }
 
@@ -562,25 +588,6 @@ ul {
 
 /**/
 /*CONTACTOS*/
-.pf-conteiner {
-  padding: 20px;
-  width: 70%;
-  height: 70%;
-  border: 2px solid #000;
-  margin: 60px auto;
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
-  background-color: #f1f1f1;
-}
-
-.pf-conteiner h1 {
-  margin: 0 0 15px 0;
-}
-
-.pf__items {
-  margin: 10px 0 10px 0;
-}
-
 .conteiner-textoContactos {
   margin-top: 50px;
   width: 100%;
@@ -611,105 +618,66 @@ ul {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.ultra-content {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  gap: 60px;
-  justify-content: center;
-  align-items: center;
-}
-
-.section__parrafoconsultas {
-  overflow: auto;
-  width: 600px;
-  height: 600px;
-  background-color: #ffffff;
-  border-radius: 7% 7% 7% 7%;
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.151);
-  margin-top: 30px;
-  padding: 23px;
-  border: 1px solid #747474;
-}
-
-.section__parrafoconsultas p {
-  font-size: 23px;
-  color: #800000;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.textarea1 {
-  position: absolute;
-  top: 20%;
-  left: 20.9%;
-  background-color: #ededed;
-  border-radius: 5%;
-  border: none;
-}
-
-.content-impconsulta {
-  justify-content: center;
-  display: flex;
-  position: relative;
-  margin-top: 30px;
-}
-
-.form {
-  background-color: #fff;
-  border: 1px solid #747474;
-  width: 500px;
-  height: 500px;
-  border-radius: 7% 7% 7% 7%;
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.151);
-}
-
-.form__nombre-email {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.form__asuntos-mensajes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 170px;
-}
-
-.form__nombre input {
-  margin-top: 20px;
-  height: 60px;
-  border: none;
-  background-color: #ededed;
-  border-radius: 6%;
-}
-
-.form__email input {
-  margin-top: 20px;
-  height: 60px;
-  border: none;
-  background-color: #ededed;
-  border-radius: 6%;
-}
-
-.form__asunto input {
-  background-color: #ededed;
-  border-radius: 6%;
-  border: none;
-  height: 60px;
-}
-
-.btn_contact {
-  position: relative;
-  bottom: 80px;
-  border: none;
+.cotact-container {
+  font-family: sans-serif;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
   background-color: #f02929;
-  border-radius: 5%;
-  height: 40px;
-  width: 60px;
-  cursor: pointer;
-  color: #fff;
+  color: #ffffff;
+}
+
+.cotact-container > * {
+  padding: 20px;
+}
+
+.contact-form form {
+  display: grid;
+}
+
+.contact-form div {
+  padding-top: 1rem;
+}
+
+.cotact-container form input,
+.cotact-container form textarea, button {
+  width: 100%;
+  padding: 0.3rem;
+}
+
+.cotact-container form input,
+.cotact-container form textarea {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: #ffffff;
+}
+
+.contact-info {
+  background-color: #800000;
+}
+
+.contact-info li {
+  margin: 7px 0;
+}
+
+.contact-info li i {
+  margin: 0 10px 0 0;
+}
+
+.mini-nav {
+  background-color: #ffffff;
+  margin-top: 2em;
+  padding-left: 10px;
+  line-height: 4;
+}
+
+.mini-nav a {
+  color: #f02929;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /**/
@@ -825,8 +793,16 @@ ul {
   font-size: 30px;
 }
 
+.compra__btns {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
 .btn__compra {
-  min-width: 130px;
+  max-width: 130px;
   height: 40px;
   color: #fff;
   padding: 5px 10px;
@@ -843,12 +819,13 @@ ul {
 
 .btn__compra:hover {
   background: #fff;
-  color: #57cc99 s;
+  color: #57cc99;
 }
 
 .btn__compra2 {
   margin-left: 10px;
-  min-width: 130px;
+  max-width: 150px;
+  min-width: 150px;
   height: 40px;
   color: #fff;
   padding: 5px 10px;
@@ -960,11 +937,19 @@ ul {
 }
 
 .footer__telefono {
-  margin: 15px;
+  margin: 0 0 0 5px;
 }
 
 .footer__icons {
-  color: black;
+  color: white;
+}
+
+.footer__redes ul {
+  padding-left: 0px;
+}
+
+.footer__icons i {
+  font-size: 25px;
 }
 
 .footer__btn {
@@ -980,6 +965,10 @@ ul {
 iframe {
   width: 200px;
   height: 200px;
+}
+
+.medios-pagos i {
+  font-size: 30px;
 }
 
 @media screen and (max-width: 1534px) {

@@ -1,22 +1,3 @@
-.pf-conteiner {
-    padding: 20px;
-    width: 70%;
-    height: 70%;
-    border: 2px solid #000;
-    margin: 60px auto;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000;
-    box-shadow: 5px 5px 15px 5px #000000;
-    background-color: #f1f1f1;
-  }
-  
-  .pf-conteiner h1 {
-    margin: 0 0 15px 0;
-  }
-  
-  .pf__items {
-    margin: 10px 0 10px 0;
-  }
-  
   .conteiner-textoContactos {
     margin-top: 50px;
     width: 100%;
@@ -47,103 +28,66 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
-  .ultra-content {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 60px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .section__parrafoconsultas {
-    overflow: auto;
-    width: 600px;
-    height: 600px;
-    background-color: #ffffff;
-    border-radius: 7% 7% 7% 7%;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.151);
-    margin-top: 30px;
-    padding: 23px;
-    border: 1px solid #747474;
-  }
-  
-  .section__parrafoconsultas p {
-    font-size: 23px;
-    color: #800000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  .textarea1 {
-    position: absolute;
-    top: 20%;
-    left: 20.9%;
-    background-color: #ededed;
-    border-radius: 5%;
-    border: none;
-  }
-  
-  .content-impconsulta {
-    justify-content: center;
-    display: flex;
-    position: relative;
-    margin-top: 30px;
-  }
-  
-  .form {
-    background-color: #fff;
-    border: 1px solid #747474;
-    width: 500px;
-    height: 500px;
-    border-radius: 7% 7% 7% 7%;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.151);
-  }
-  
-  .form__nombre-email {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 30px;
-  }
-  
-  .form__asuntos-mensajes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 170px;
-  }
-  
-  .form__nombre input {
-    margin-top: 20px;
-    height: 60px;
-    border: none;
-    background-color: #ededed;
-    border-radius: 6%;
-  }
-  
-  .form__email input {
-    margin-top: 20px;
-    height: 60px;
-    border: none;
-    background-color: #ededed;
-    border-radius: 6%;
-  }
-  
-  .form__asunto input {
-    background-color: #ededed;
-    border-radius: 6%;
-    border: none;
-    height: 60px;
-  }
-  
-  .btn_contact {
-    position: relative;
-    bottom: 80px;
-    border: none;
+
+  .cotact-container{
+    font-family: sans-serif;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
     background-color: #f02929;
-    border-radius: 5%;
-    height: 40px;
-    width: 60px;
-    cursor: pointer;
-    color: #fff;
+    color: #ffffff;
   }
+
+  .cotact-container >*{
+    padding: 20px;
+  }
+
+  .contact-form form{
+    display: grid;
+  }
+  .contact-form div{
+    padding-top: 1rem;
+  }
+
+  .cotact-container form input,
+  .cotact-container form textarea, button{
+    width: 100% ;
+    padding: 0.3rem;
+  }
+  .cotact-container form input,
+  .cotact-container form textarea{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+  }
+  
+
+
+.contact-info{
+  background-color: #800000;
+
+  li{
+    margin: 7px 0;
+    
+    i{
+      margin:0 10px 0 0 ;
+    }
+  }
+}
+
+
+
+.mini-nav{
+  background-color: #ffffff;
+  margin-top: 2em ;
+  padding-left: 10px;
+  line-height: 4;
+    a{
+      color: #f02929;
+      font-size: 18px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

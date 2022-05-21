@@ -1,12 +1,14 @@
 
 .seguimineto-pedidos{
-    width: 700px;
-    height: 700px;
-    border-radius: 3%;
+    max-width: 700px;
+    max-height: 700px;
     background-color: #f9f9f9;
-    border-radius: 7% 7% 7% 7%;
+    border-radius: 1% 1% 1% 1%;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.15);
     margin: 55px auto;
+        i{
+        color: #a52a2a;
+    }
 }
 
 .seguimiento__conteiner{
@@ -16,6 +18,10 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+.seguimiento__parrafo p{
+    font-size: 1.1rem;
+    font-family: sans-serif;
 }
 
 
@@ -49,8 +55,6 @@
     align-items: center;
     position: relative;
     padding: 0 7px;
-    
-    
 }
 .segumineto__line{
     width: 100%;

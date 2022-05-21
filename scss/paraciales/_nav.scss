@@ -1,5 +1,5 @@
 .nav{
-    background-color: #f02929;
+    background-color: $principal-color;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -7,11 +7,12 @@
     height: 70px;
     position: relative;
     flex-wrap: nowrap !important;
+    
 
-    .nav__img{
-        margin: 30px;
-        height: 70px; 
-    }
+        .nav__img{
+            height: 70px; 
+        }
+
     
     .nav__bar-btn{
         display: flex;
@@ -57,7 +58,9 @@
 }
 
 
-
+.li-cross{
+    margin: 0 !important;
+}
 .nav__ul li{
     margin: 0 10px;
     
@@ -71,15 +74,9 @@
     border-bottom: 2px solid rgb(255, 255, 255);
     color: #fff !important;
 }
-
-
 .navbar__conteiner{
     display: flex;
 }
-
-
-
-
 .btn:hover{
     opacity: 0.7px;
 }
@@ -89,14 +86,23 @@
 .fi-rr-cross{
     display: none;
 }
-
 .fi-rr-align-justify {
     display: none;
 }
-
-
-
-
 .fa-bars{
     display: none;
 }
+.mini-nav{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 2em ;
+    padding-left: 10px;
+    line-height: 4;
+        a{
+        color: #f02929;
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        &:hover{
+            border-bottom: 1px solid  #d90429   ;
+        }
+        }
+    }

@@ -17,10 +17,16 @@
 }
 
 .footer__telefono{
-    margin: 15px;
+    margin: 0 0 0 5px;
 }
 .footer__icons{
-    color: black;
+    color: rgb(255, 255, 255);
+}
+.footer__redes ul{
+    padding-left: 0px   ;
+}
+.footer__icons i {
+    font-size: 25px;
 }
 .footer__btn{
     width: 27px;
@@ -35,4 +41,8 @@
 iframe{
     width: 200px;
     height: 200px;
+}
+
+.medios-pagos i{
+    font-size: 30px;
 }

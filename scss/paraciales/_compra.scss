@@ -108,8 +108,15 @@
 .fa-cc-mastercard{
     font-size: 30px;
 }
+.compra__btns{
+    display:flex ;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 .btn__compra {
-    min-width: 130px;
+    max-width: 130px ;
     height: 40px;
     color: #fff;
     padding: 5px 10px;
@@ -125,12 +132,13 @@
 }
 .btn__compra:hover {
     background: #fff;
-    color: #57cc99
-s}
+    color: #57cc99;
+}
 
 .btn__compra2 {
     margin-left: 10px;
-    min-width: 130px;
+    max-width: 150px;
+    min-width: 150px;
     height: 40px;
     color: #fff;
     padding: 5px 10px;
