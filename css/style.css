@@ -324,6 +324,23 @@ ul {
   text-align: center;
 }
 
+.nav-pages {
+  width: 100%;
+}
+
+.nav-pages nav {
+  max-width: 100px;
+  margin: auto;
+}
+
+.colornumeros-page {
+  color: #f02929;
+}
+
+.colorbg-navpage {
+  color: #fff;
+}
+
 .bar__conteiner {
   background-color: #ffffff;
   width: 70%;

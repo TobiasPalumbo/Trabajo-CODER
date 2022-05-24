@@ -48,3 +48,24 @@
     
     
 }
+
+.nav-pages{
+    width: 100%;
+
+}
+
+.nav-pages nav{
+    max-width: 100px;
+    margin: auto;
+}
+
+$mapaNavPage:(
+    numeros-page: #f02929,
+    bg-navpage: #fff,
+);
+
+@each $clave, $valor in $mapaNavPage {
+    .color#{$clave} {
+        color: $valor;
+    } 
+}
