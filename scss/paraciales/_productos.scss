@@ -20,12 +20,12 @@
 }
 
 .list__items{
+    width: 370px;
     transition: border 10s;
     
 }
 .list__items:hover{
-    border: 2px solid #c9c4a3 ;
-    
+    outline: 1px solid #000;
 }
 .cont-precio {
     display: flex ;

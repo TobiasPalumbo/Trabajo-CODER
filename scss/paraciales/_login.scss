@@ -1,29 +1,20 @@
 .login__conteiner{
     text-align: center;
-    border: 1px solid black;
-    border-radius: 16px;
+    border-radius: 6px;
+    padding-top: 20px;
     width: 500px;
     height: 500px;
     margin: 70px auto;
     box-shadow: 3px 3px 13px 2px rgba(0,0,0,0.49);
-    -webkit-box-shadow: 3px 3px 13px 2px rgba(0,0,0,0.49);
--moz-box-shadow: 3px 3px 13px 2px rgba(0,0,0,0.49);
-background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .form_login{
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px; 
-
-    
-}
-
-.login__title{
-    margin-top: 55px;
-    
 }
 .login__title h1{
     font-size: 25px;
@@ -32,13 +23,10 @@ background-color: #ffffff;
 }
 .login__name input{
     padding: 1rem;
-    border-radius: 4px ;
 }
 
 .login__password input{
     padding: 1rem;
-    border-radius: 4px;
-
 }
 
 .login__btn button{
@@ -67,3 +55,6 @@ background-color: #ffffff;
 }
 
 
+.w-max{
+    max-width: 500px;
+}

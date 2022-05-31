@@ -18,9 +18,9 @@
     <title>Cuenta|WillyKids La Plata Rodados Bebes y Niños</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header shadow">
         <nav class="nav">
-                <a class="van__linkImg" href="../index.html"><img class="nav__img" src="https://vanderbaby.com.ar/wp-content/uploads/2021/11/logo-vander.webp" alt="WillyKids"></a>
+                <a class="van__linkImg" href="../index.html"><h2 class="text-light">WillyKids</h2></a>
                 <label for="busqueda"></label>
                 <div class="nav__bar-btn">
                     <input class="nav__bar" type="text" name="busqueda" id="busqueda" placeholder="Busca tu producto...">
@@ -45,7 +45,7 @@
         </nav>
     </header>
     <div class="mini-nav">
-        <p><a href="../index.html">Incio</a> > <a href="cuenta.html">Cuenta</a></p>
+        <p><a href="../index.html">Inicio</a> > <a href="cuenta.html">Cuenta</a></p>
     </div>
     <section>
         <div class="login__conteiner">
@@ -55,22 +55,58 @@
             <form class="form_login">
                 <div class="login__name">
                     <label for="username"></label>
-                    <input  type="email" name="username o email" id="username" placeholder=" Correo electronico" required>
+                    <input  type="email" name="username o email" id="username" placeholder="Correo electronico" required>
                 </div>
 
                 <div class="login__password">
                     <label for="password"></label>
-                    <input type="password" name="password" id="password" placeholder=" Contraseña">
+                    <input type="password" name="password" id="password" placeholder="Contraseña">
                 </div>
                 <div class="login__btn"><button>Enviar</button>  <p><a href="">¿Olvidaste tu contraseña?</a></p></div>
             </form>
+        </div>
+        <div class="container ">
+            <div class="card w-max m-auto mb-5 ">
+                <div class="card-body">
+                    <h4 class="fs-5 mb-3 color text-danger">¿No estas registrado?    </h4>
+                                <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Registrarse
+                                    </button>
+                                    <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header ">
+                                <h5 class="modal-title " id="exampleModalLabel">Registrarse</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Contraseña  ">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-success">Enviar</button></div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
         </div>
     </section>
     <div class="content__whatsapp">
         <a href=" https://wa.me/2215052595"><img src="../imagenes/3225179_app_logo_media_popular_social_icon (1).png" alt="WhatsApp"></a>
     </div>
     <section>
-
+    
+</section>
         <div class="footer-conteiner">
             <footer class="footer">
                     <div>
