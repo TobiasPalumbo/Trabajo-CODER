@@ -1,0 +1,36 @@
+.carrusel-index{
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    i{
+        font-size: 30px;
+        color: #868484;
+    }
+    .arrow-left i{
+        position: absolute;
+        top: 50%;
+        left: 4px;
+    }
+    .arrow-right i{
+        position: absolute;
+        top: 50%;
+        right: 4px;
+    }
+    i:hover{
+        cursor: pointer;
+        color: #535353;
+    }
+    ul{
+        overflow: auto;
+        padding: 20px 10px;
+        li{
+            transition: all 400ms ease;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        li:hover{
+            cursor: pointer;
+            transform: translateZ(30px);
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        }   
+    }
+}

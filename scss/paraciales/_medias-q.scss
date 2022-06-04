@@ -3,19 +3,14 @@
     .nav__items{
         font-size: 13px;
     }
-}
-
-@media screen and (max-width:1469px){
-
-    .nav__items{
-        font-size: 11px;
+    .compra__containertext{
+        margin: 0;
     }
 }
 
-@media screen and (max-width:14px){
+@media screen and (max-width:1469px){
     .nav__items{
-        font-size: 10px;
-        
+        font-size: 11px;
     }
 }
 
@@ -98,7 +93,8 @@
     
 
     .seguimineto-pedidos{
-        width: 70%;
+        width: 90%;
+        padding: 20px;
     }
 } 
 
@@ -185,7 +181,7 @@
 
     .fi-rr-align-justify{
         position: absolute;
-        top: 2px;
+        top: 12px;
         right: 10px;
         display: block;
         font-size: 25px;
@@ -243,6 +239,10 @@
 
 }
 @media screen and (max-width:410px){
+    .nav{
+        height: 130px;
+        justify-content: space-evenly;
+    }
     iframe{
         width: 100px;
         height: 100px;
@@ -257,6 +257,12 @@
     .login__password input{
         width: 100%;
     }
+    .accordion-button{
+        font-size: 13px;
+    }
+    .accordion-body h6,p{
+        font-size: 13px;
+    }
 }
 
 
@@ -269,6 +275,9 @@
     }
     .fi-rr-align-justify{
         margin: 0;
+    }
+    .lista-productos{
+        padding: 20px;
     }
 }
 
