@@ -10,10 +10,13 @@
 .compra__img img{
     width: 100%;
 }
-
+img{
+    transition: all 300ms ease;
+}
 .compra__imgitems:hover img{
-    border: 1px solid #000;
     cursor: pointer;
+    transform: translateZ(30px);
+    transform: scale(1.3);
 
 
 }

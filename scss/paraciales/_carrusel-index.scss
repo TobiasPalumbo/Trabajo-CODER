@@ -10,11 +10,13 @@
         position: absolute;
         top: 50%;
         left: 4px;
+        z-index: 999;
     }
     .arrow-right i{
         position: absolute;
         top: 50%;
         right: 4px;
+        z-index: 999;
     }
     i:hover{
         cursor: pointer;

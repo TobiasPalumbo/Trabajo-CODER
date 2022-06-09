@@ -22,10 +22,28 @@
     gap: 20px;
 }
 
-.categorias__items:hover{
-    border-bottom: 2px solid #c9a3a3;
 
+
+.categorias__items {
+    transition: all 400ms ease;
+    position: relative;
+    &::after{
+        content: "";
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        right: 0;
+        height: 2px;
+        position: absolute;
+        background-color: #f02929;
+        transition: all 400ms ease;
+    }
+    &:hover::after{
+        width: 100%;
+        left: 0;
+    }
 }
+
 
 .marcas_check{
     display: flex;

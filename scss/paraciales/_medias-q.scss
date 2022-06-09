@@ -1,10 +1,35 @@
 
+
+
+
+
+@media screen and (max-width:1700px) {
+    .header{
+        height: 130px;
+        .nav{
+            flex-direction: column;
+            
+        }
+    }
+    
+}
+
+
+
 @media screen and (max-width:1534px){
     .nav__items{
         font-size: 13px;
     }
     .compra__containertext{
         margin: 0;
+    }
+}
+@media screen and (max-width:1534px){
+    .lista-productos{
+        gap: 10px;
+        li{
+            width: 32.333%;
+        }
     }
 }
 
@@ -44,6 +69,7 @@
 
 
 @media screen and (max-width:1170px) {
+
     .nav{
         background-color: rgba(0, 0, 0, 0);
         
@@ -57,20 +83,17 @@
 }
 
 
-@media screen and (max-width:890px) {
-
-    .footer{
-        display: grid;
-        grid-template-columns: auto auto auto;
+@media screen and (max-width:1024px) {
+    .list__items{
+        width: 48% !important;
     }
+}
 
+
+@media screen and (max-width:890px) {
     .nav__bar{
         width: 300px !important;
     }
-
-
-
-
 }
 
 @media screen and (max-width:805px){
@@ -91,10 +114,12 @@
 
 @media screen and (max-width:710px){
     
-
     .seguimineto-pedidos{
         width: 90%;
         padding: 20px;
+    }
+    .footer__container{
+        padding: 10px;
     }
 } 
 
@@ -113,18 +138,12 @@
         width: 300px;
     }
 
-
-
-    .footer{
-        grid-template-columns: auto auto;
-    }
-
 }
 
 
 @media screen and (max-width:576px){
     .conteiner-products{
-        padding: 0;
+        padding: 10px;
     }
 
     .login__conteiner{
@@ -140,7 +159,7 @@
 
 }
 
-@media screen and (max-width:525px){
+@media screen and (max-width:700px){
     .conteiner-products{
         flex-direction: column-reverse;
     }
@@ -160,7 +179,7 @@
 
 
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:720px){
     #lateral{
         display: block;
         position: fixed;
@@ -247,10 +266,6 @@
         width: 100px;
         height: 100px;
     }
-    .footer div form input{
-        width: 90px;
-    }
-
     .login__name input{
         width: 100%;
     }
@@ -268,7 +283,7 @@
 
 @media screen and (max-width:365px){
     .list__items{
-        width: 100%;
+        width: 100% !important;
     }
     .list__items img{
         width: 100%;
@@ -278,11 +293,5 @@
     }
     .lista-productos{
         padding: 20px;
-    }
-}
-
-@media screen and (max-width:342px) {
-    .footer{
-        grid-template-columns: auto ;
     }
 }
