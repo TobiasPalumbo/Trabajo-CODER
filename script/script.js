@@ -2,11 +2,11 @@
 //Comenten todas los llamados de la funciones para que no se haga un descontrol 
 
 const productos = [
-    {id:1, nombre:"butaca halo", precio: 22339 },
-    {id:2, nombre:"silla de comer", precio: 23399 },
-    {id:3, nombre:"andador kiddy", precio: 20000 },
-    {id:4, nombre:"silla de comer booster", precio: 23399 },
-    {id:5, nombre:"butaca Sena", precio: 31399}
+    {id:1, nombre:"butaca halo", precio: 22339, img:"../imagenes/coche-negro.webp" },
+    {id:2, nombre:"silla de comer", precio: 23399,img:"../imagenes/coche-negro.webp"  },
+    {id:3, nombre:"andador kiddy", precio: 20000,img: "../imagenes/coche-negro.webp" },
+    {id:4, nombre:"silla de comer booster", precio: 23399,img:  "../imagenes/coche-negro.webp"},
+    {id:5, nombre:"butaca Sena", precio: 31399,img: "../imagenes/coche-negro.webp"  }
 ];
 
 const carrito = [];
@@ -61,7 +61,25 @@ function comprar(){
     console.log(totalPrecio)
 
 }
-comprar()
+// comprar()
 
-comprar()
+// comprar()
+
+
+const container = document.querySelector("#container");
+
+for( let obj of productos ){
+const li = document.createElement("li")
+
+li.className = ("list__items")
+li.innerHTML = `<img src="${obj.img}"/>
+<h5 class="list__text">${obj.nombre} </h5>
+<div class="cont-precio">
+    <span class="precio">Precio ${obj.precio}</span> 
+</div>`
+container.appendChild(li)
+}
+
+const h5Productos = document.querySelectorAll("h5");
+h5Productos.className = ""
 
