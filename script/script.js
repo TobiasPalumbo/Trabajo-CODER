@@ -81,5 +81,7 @@ container.appendChild(li)
 }
 
 const h5Productos = document.querySelectorAll("h5");
-h5Productos.className = ""
+
+
+
 

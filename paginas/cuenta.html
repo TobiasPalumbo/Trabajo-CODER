@@ -26,7 +26,6 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/14234ba7a4.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +71,7 @@
             <div class="login__title">
                 <h1>Iniciar sesión</h1>
             </div>
-            <form class="form_login">
+            <form class="form_login" id="form-login">
                 <div class="login__name">
                     <label for="username"></label>
                     <input  type="email" name="username o email" id="username" placeholder="Correo electronico" required>
@@ -82,7 +81,7 @@
                     <label for="password"></label>
                     <input type="password" name="password" id="password" placeholder="Contraseña">
                 </div>
-                <div class="login__btn"><button>Enviar</button>  <p><a href="">¿Olvidaste tu contraseña?</a></p></div>
+                <div class="login__btn"><button id="submit">Enviar</button>  <p><a href="">¿Olvidaste tu contraseña?</a></p></div>
             </form>
         </div>
         <div class="container ">
@@ -171,5 +170,6 @@
     </div>
 </footer>
     <script src="../script/bootstrap.bundle.min.js"></script>
+    <script src="../script/login.js"></script>
 </body>
 </html>
